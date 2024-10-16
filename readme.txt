@@ -2,12 +2,12 @@ HTML:
 
 1/5:
 Basic HTML structure is present 
--> esim. etusivu.html rivi 1-8
+-> esim. index.html rivi 1-8
 
 2/5:
 HTML structure with clear content differentiation (headings, paragraphs, lists). 
-headings -> esim. etusivu.html rivi 27
-paragraphs -> esim. etusivu.html rivi 36
+headings -> esim. index.html rivi 27
+paragraphs -> esim. index.html rivi 36
 lists -> esim. etusivu.htnl rivit 13-22
 
 3/5:
