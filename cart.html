@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiushelmi</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>Hiushelmi</h1>
+        <nav>
+            <ul>
+                <li><a href="etusivu.html">Etusivu</a></li>
+                <li><a href="tuotteet.html">Tuotteet</a></li>
+                <li><a href="about.html">Tietoa meistä</a></li>
+                <li><a href="arvostelut.html">Arvostelut</a></li>
+                <li><a href="myymalat.html">Myymälät</a></li>
+                <li><a href="cart.html">Ostoskori</a></li>
+                <li><button id="theme-toggle"><span id="theme-icon">Dark mode</span></button></a></li>
+                <p><li><a<div id="dateTimeDisplay"></div></a></li></p>
+            </ul>     
+        </nav>
+    </header>
+
+    <div class="cart">
+        <h1>Ostoskori:</h1>
+        <div id="cartItems"></div>
+    <table id="cart-items">
+        <tr>
+            <th>Tuote</th>
+            <th>Hinta</th>
+            <th>Määrä</th>
+            <th>Yhteensä</th>
+            <th>Lisää/Poista</th>
+        </tr>
+        
+    </table>
+
+    <p><h2><span id="total-items-count">Tuotteita: 0</span></h2></p>
+    <p><h2><span id="total-price">0€</span></h2></p>
+    <button id="clear-cart">Tyhjennä ostoskori</button>
+    <button id="buy-button">Osta</button> 
+
+    </div> 
+
+    <footer>
+        <div class="footer-left">
+            <h1>Ota yhteyttä!</h1>
+            <p>Sähköposti: hiushelmi@gmail.com</p>
+            <p>Puhelinnumero: 0458773538</p>
+            <p>© Copyright 2024</p>
+        </div>
+        <div class="footer-right">
+            <h3>Löydät meidät myös</h3>
+            <h3>sosiaalisesta mediasta!</h3>
+            <p>Instagram: Hiushelmi</p>
+            <p>Facebook: Hiushelmi</p>
+            <p>TikTok: Hiushelmi</p>
+        </div> 
+    </footer>
+
+    <script src="assets/cart.js" defer></script>
+    <script src="assets/script.js" defer></script>
+
+</body>
+</html>

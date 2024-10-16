@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hiushelmi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hiushelmi</h1>
+        <nav>
+            <ul>
+                <li><a href="etusivu.html">Etusivu</a></li>
+                <li><a href="tuotteet.html">Tuotteet</a></li>
+                <li><a href="about.html">Tietoa meistä</a></li>
+                <li><a href="arvostelut.html">Arvostelut</a></li>
+                <li><a href="myymalat.html">Myymälät</a></li>
+                <li><a href="cart.html">Ostoskori</a></li>
+                <li><button id="theme-toggle"><span id="theme-icon">Dark mode</span></button></a></li>
+                <p><li><a<div id="dateTimeDisplay"></div></a></li></p>
+            </ul>     
+        </nav>
+    </header>
+
+    <main>
+        <section class="arvostelut">
+            <h2>Asiakasarvostelut:</h2>
+            <div id="arvosteluContainer">
+               
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Maria</strong></p>
+                    <p class="rating">★★★★★</p>
+                    <p class="kommentti">Erinomainen palvelu ja kauniit hiuskoristeet! Suosittelen lämpimästi.</p>
+                </div>
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Jukka</strong></p>
+                    <p class="rating">★★★★☆</p>
+                    <p class="kommentti">Hyvät tuotteet, mutta toimitus kesti hieman kauan.</p>
+                </div>
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Laura</strong></p>
+                    <p class="rating">★★★★★</p>
+                    <p class="kommentti">Rakastan näitä hiuskoristeita! Laadukkaita ja kauniita.</p>
+                </div>
+                
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Hanna</strong></p>
+                    <p class="rating">★★★★☆</p>
+                    <p class="kommentti">Kauniit hiuskoristeet, mutta toivoisin enemmän värivaihtoehtoja!</p>
+                </div>
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Terhi</strong></p>
+                    <p class="rating">★★★☆☆</p>
+                    <p class="kommentti">Tuotteet ovat hyviä, mutta toimitus kesti odotettua kauemmin.</p>
+                </div>
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Iines</strong></p>
+                    <p class="rating">★★★★☆</p>
+                    <p class="kommentti">Erittäin tyytyväinen ostokseeni, mutta yksi hiusdonitsi oli hieman löysä.</p>
+                </div>
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Saku</strong></p>
+                    <p class="rating">★★★★★</p>
+                    <p class="kommentti">Ostin tyttöystävälle lahjaksi. Hän piti paljon ja aikoo ostaa lisää!</p>
+                </div>
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Tiina</strong></p>
+                    <p class="rating">★★★★☆</p>
+                    <p class="kommentti">Ihanat tuotteet, mutta toivoisin enemmän vaihtoehtoja.</p>
+                </div>
+                <div class="arvostelu">
+                    <p class="nimi"><strong>Maija</strong></p>
+                    <p class="rating">★★★☆☆</p>
+                    <p class="kommentti">Hyviä tuotteita, mutta tuotteiden määrä voisi olla isompi.</p>
+                </div>
+            </div>
+            <div class="average-rating">
+                <h3>Keskiarvo: <span id="average-rating">0</span>/5 <span id="average-star">★</span></h3>
+            </div>
+
+            <form id="arvosteluLomake">
+                <h3>Jätä arvostelu:</h3>
+                <label for="nimi">Nimesi:</label>
+                <input type="text" id="nimi" required>
+    
+                <p><label for="rating">Arvostelu:</label>
+                <select id="rating" required>
+                    <option value="5">★★★★★</option>
+                    <option value="4">★★★★☆</option>
+                    <option value="3">★★★☆☆</option>
+                    <option value="2">★★☆☆☆</option>
+                    <option value="1">★☆☆☆☆</option>
+                </select></p>
+    
+                <p><label for="kommentti">Kommentti:</label>
+                <textarea id="kommentti" required></textarea></p>
+    
+                <button type="submit">Lähetä arvostelu</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-left">
+            <h1>Ota yhteyttä!</h1>
+            <p>Sähköposti: hiushelmi@gmail.com</p>
+            <p>Puhelinnumero: 0458773538</p>
+            <p>© Copyright 2024</p>
+        </div>
+        <div class="footer-right">
+            <h3>Löydät meidät myös</h3>
+            <h3>sosiaalisesta mediasta!</h3>
+            <p>Instagram: Hiushelmi</p>
+            <p>Facebook: Hiushelmi</p>
+            <p>TikTok: Hiushelmi</p>
+        </div> 
+    </footer>
+
+    <script src="assets/arvostelut.js" defer></script>
+    <script src="assets/script.js" defer></script>
+    <script src="assets/cart.js" defer></script>
+</body>
+</html>
