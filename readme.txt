@@ -1,4 +1,4 @@
-Tämä projekti on opiskelijatyöni web-ohjelmointikurssilta, jossa suunnittelin ja toteutin perusverkkokaupan prototyypin. Tavoitteeni oli harjoitella verkkosivujen rakennetta, tyylittelyä ja interaktiivisuutta HTML:llä, CSS:llä ja JavaScriptillä.
+Tämä projekti on web-ohjelmointikurssilta, jossa suunnittelin ja toteutin perusverkkokaupan prototyypin. Tavoitteeni oli harjoitella verkkosivujen rakennetta, tyylittelyä ja interaktiivisuutta HTML:llä, CSS:llä ja JavaScriptillä.
 
 Mitä projektissa tein:
 
