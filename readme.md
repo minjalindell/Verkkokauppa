@@ -9,7 +9,7 @@ Tämä projekti on web-ohjelmointikurssilta, jossa suunnittelin ja toteutin peru
 - Käytin CSS:ää ja JavaScriptiä sivujen ulkoasun ja perustoiminnallisuuden toteuttamiseen
 - Sivusto toimii staattisena demona, joka näyttää verkkokaupan perusominaisuudet eli sieltä ei voi oikeasti ostaa mitään
 
-## Ohjelmointikielet
+## Käytetyt teknologiat
 
 - HTML
 - CSS
