@@ -1,7 +1,7 @@
+## Verkkosivu
 Tämä projekti on web-ohjelmointikurssilta, jossa suunnittelin ja toteutin perusverkkokaupan prototyypin. Tavoitteeni oli harjoitella verkkosivujen rakennetta, tyylittelyä ja interaktiivisuutta HTML:llä, CSS:llä ja JavaScriptillä.
 
-
-Mitä projektissa tein:
+## Projektin idea & ominaisuudet
 
 - Suunnittelin ja toteutin tuotelistan ja yksittäisten tuotteiden esittelyn
 - Rakensin ostoskorin, johon käyttäjä voi lisätä ja poistaa tuotteita
@@ -9,17 +9,19 @@ Mitä projektissa tein:
 - Käytin CSS:ää ja JavaScriptiä sivujen ulkoasun ja perustoiminnallisuuden toteuttamiseen
 - Sivusto toimii staattisena demona, joka näyttää verkkokaupan perusominaisuudet eli sieltä ei voi oikeasti ostaa mitään
 
-
-Ohjelmointikielet:
+## Ohjelmointikielet
 
 - HTML
 - CSS
 - JavaScript
 
+## Mitä opin
 
-Mitä opin:
+- Opin verkkosivujen rakenteen ja layoutin suunnittelun HTML:n avulla
+- Opin CSS:n hyödyntämisen tyylittelyyn ja responsiivisuuden periaatteet
+- Opin JavaScriptin avulla dynaamisten elementtien, kuten ostoskorin ja arvostelujen, toteuttamisen
+- Opin eri sivujen ja komponenttien yhdistämisen toimivaksi, interaktiiviseksi kokonaisuudeksi
+- Opin prototyyppien rakentamisen ja testauksen web-käyttöliittymässä
 
-- Opin, miten verkkosivujen eri osat ja interaktiot voidaan yhdistää toimivaksi kokonaisuudeksi
-
-
-Projektin voi katsoa GitHub Pages -versiona: https://minjalindell.github.io/Verkkokauppa/
+## Linkki sivulle
+ https://minjalindell.github.io/Verkkokauppa/
