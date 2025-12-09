@@ -8,6 +8,7 @@ Mitä projektissa tein:
 - Käytin CSS:ää ja JavaScriptiä sivujen ulkoasun ja perustoiminnallisuuden toteuttamiseen
 - Sivusto toimii staattisena demona, joka näyttää verkkokaupan perusominaisuudet eli sieltä ei voi oikeasti ostaa mitään
 
+
 Ohjelmointikielet:
 
 - HTML
@@ -18,5 +19,6 @@ Ohjelmointikielet:
 Mitä opin:
 
 - Opin, miten verkkosivujen eri osat ja interaktiot voidaan yhdistää toimivaksi kokonaisuudeksi
+
 
 Projektin voi katsoa GitHub Pages -versiona: https://minjalindell.github.io/Verkkokauppa/
