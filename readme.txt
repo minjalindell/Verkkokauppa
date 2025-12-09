@@ -15,4 +15,8 @@ Ohjelmointikielet:
 - JavaScript
 
 
+Mitä opin:
+
+- Opin, miten verkkosivujen eri osat ja interaktiot voidaan yhdistää toimivaksi kokonaisuudeksi
+
 Projektin voi katsoa GitHub Pages -versiona: https://minjalindell.github.io/Verkkokauppa/
